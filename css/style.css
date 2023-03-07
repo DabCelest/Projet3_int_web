@@ -1,0 +1,158 @@
+/* ----- Disposition du body ---*/ 
+body{
+    font-family: 'Raleway', sans-serif;
+    /*position: relative;
+    width: 1440px ;
+    height:1884px; */
+    background: #FFFFFF;
+}
+/* ----- Style de header ---*/ 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header_right ul {
+    display: flex;
+    justify-content: space-between;  
+}
+.header_right li {
+    display: flex;
+    padding-left: 15px;
+    
+}
+.header_right li a {
+    text-decoration: none;
+    color: black;
+}
+.header_right li a:hover {
+    color:blue;
+    border-top-style: solid;
+}
+/* ----- Style de la section 1 - partie Form---*/ 
+.section1 .phrase_trouvez{
+    width: 575px;
+    height: 26px;
+}
+.section1 .phrase_trouvez h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+} 
+.section1 .phrase_en_plein p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.section1 .rech_localite {
+    display: flex;
+    font-size: 18px;
+}
+.rech-bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    border: 2px solid  #0065FC;
+    border-radius: 0px 8px 8px 0px;
+}
+input[type=search]{
+    border: none;
+    height:25 px;
+    padding-left: 8px;
+    text-align: left;
+}
+input[type=submit]{
+    border: none;
+    color:  #ffffff;
+    background-color: #0065FC;
+    border-radius: 0px 8px 8px 0px;
+}
+.section1 .rech_localite .logo_localisation {
+    width: 28px ;
+    height:20 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px 0px 0px 8px;
+}
+/* ----- Style de la section 1 - partie Filtre---*/ 
+.section1 .filtre {
+    display: flex;
+    margin-top: 15px;
+}
+.section1 .filtre ul {
+    display: flex;
+    padding-right: 15px;
+}
+.filtr-lien {
+    display: flex;
+    padding: 15px;
+    margin-right: 10px;
+    border: 2px solid #000000;
+    border-radius: 20px ;
+}
+.section1 .filtre ul li {
+    display: flex;
+    padding: 10px;
+}
+.section1 .filtre ul li:hover {
+    background-color: #DEEBFF;
+}
+.section1 .filtre ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #000000;
+}
+
+/* ----- Style section1 point i devant plus de ...---*/ 
+.i-plus-de{
+    display: flex;
+}
+.point-i {
+    margin: 14px 10px 14px 0px;
+    padding: 2px 9px 2px 9px;
+    border: 2px solid #D9D9D9;
+    border-radius: 40px;
+}
+
+/* ----- Style section2 Hebergement à Marseille ...---*/ 
+.section2 {
+    border: 2px solid #D9D9D9;
+    width: 66%;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+.section2-carte-heber {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.section2 h2{
+    padding-left: 15px;
+}
+.carte-heber{
+    width: 30%;
+    /*height: 250px;*/
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    background-color:white;
+}
+.carte-heber img{
+    border-radius: 10px 10px 0px 0px;
+}
+.section2-text-bas{
+    padding: 15px;
+}
+
+
