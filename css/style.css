@@ -5,6 +5,7 @@ body{
     width: 1440px ;
     height:1884px; */
     background: #FFFFFF;
+    padding: 0px 15px 0px 15px;
 }
 /* ----- Style de header ---*/ 
 header{
@@ -199,4 +200,35 @@ input[type=submit]{
 }
 .carte-activ-descr{
     margin-left: 15px;
+}
+
+/* ----- Style de la section3 ...---*/ 
+.section3{
+    margin-top: 50px;
+}
+.section3-carte-group{
+    display: flex;
+}
+.carte-section3{
+    width: 25%;
+    /*height: 250px;*/
+    border: 2px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    background-color:white;
+}
+.carte-section3 img{
+    border-radius: 10px 10px 0px 0px;
+}
+/* ----- Style du footer ...---*/ 
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    border: 2px solid #D9D9D9;
+    margin-top: 20px;
+}
+.footer-text{
+    margin: 15px;
 }
